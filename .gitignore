@@ -1,0 +1,50 @@
+# Ignore the .idea directory (JetBrains IDEs)
+.idea/
+
+# Ignore node_modules directory (Node.js projects)
+node_modules/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore compiled Java files
+*.class
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variable files
+.env
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore coverage reports
+coverage/
+*.coverage
+
+# Ignore dependency directories
+vendor/
+
+# Ignore editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore other common temporary files
+*.swp
+*.swo
+*~
+git add .gitignore
